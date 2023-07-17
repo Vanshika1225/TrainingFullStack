@@ -10,16 +10,23 @@ Push file in the repo----------
   credentials for setting username ,password, email
   **git config --global user.name
   **git config --global user.email
-  **git config --global user.password(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)
+  **git config --global user.password(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)
   git config --list----check credentials set or not 
   git init --initialize the folder with git, ,git folder will be created after this command.it is a hidden folder will not shown
   git status---used for checking the status of the git
       U-untracked file
       M-modified
       A-added
-      D-deleted
   add . ----add all unstaged changes
   git add "messgae"
+  commit -m "first"
+  git log--show u the ,commits you have made 
+  upload code on github repo
+  https://[token]/username/reponame */
+  /* for setting this link we use the commands
+  git remote add origin link
+  for removing the origin----git remote remove origin
+  git push -u origin master
 */
 
 /* Types- */
