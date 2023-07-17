@@ -1,0 +1,62 @@
+/*
+Git commands
+ls--give the file or folder in current folder
+cd---enter into the folder--this will not run in command prompt
+mkdir--make the foldfers in current directory
+touch file_name.extension--used to make the file in the folder --this will not run in command prompt
+rm filename/foldername ---remove files from system
+Push file in the repo----------
+  Make the repo in github
+  credentials for setting username ,password, email
+  **git config --global user.name
+  **git config --global user.email
+  **git config --global user.password(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)
+  git config --list----check credentials set or not 
+  git init --initialize the folder with git, ,git folder will be created after this command.it is a hidden folder will not shown
+  git status---used for checking the status of the git
+      U-untracked file
+      M-modified
+      A-added
+      D-deleted
+  add . ----add all unstaged changes
+  git add "messgae"
+*/
+
+/* Types- */
+
+/* Selectors  */
+/* selector{cssProperty:value}; */
+/* a)element selector----select element based on name  */
+/* id selector - select element based on id  # will be used in this*/
+/* c)class selectors--- select the elemeents based on vlasses */
+/* what if same id is apllied to multiple element ? */
+/* What will happen if an element contains styles for the id and styles for a class? */
+/* what do u mean by element specifity---prefrence----id->class->->element */
+/* Note:-inline css is more prefered as compare to internal as well as external in case u define css both external and inline */
+/* aatribute selector-- 
+  elementNmae[attriburteName condition]*/
+  /* a[href^="]--starts with
+  a[href$="]--ends with
+  a[href*="]--contains */
+
+  /* pseudo selector */
+  /* elementNma:PseudoProperty{} */
+  /* first child-occurence of first class */
+  /* last child--find the last occurence */
+  /* n-th child--will select the alternate child  */
+  /* Hover  */
+
+  /* colors and gradients */
+  /* colors in css can be defined in three ways
+    name color--defined by names
+    hex code --hexadecimal value
+    rgb values
+  */
+  /* Gradients are of two types:linear,radial  */
+
+  /* background:linear-gradient(direction,colors..) */
+  /* 0 degree--bottom
+  90--right
+  180 degree-- top 
+  270 degree-- left*/
+
